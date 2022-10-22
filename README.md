@@ -3,25 +3,32 @@ For Step 2:
 // Inside the directory
 // Open a terminal
 
-Run app.py 
+cd ros_project/src/ros_package/src/scripts/
+python3 app.py 
 
 For Step3:
 //Open another terminal 
 
+cd ros_project/src/ros_package/src
 Source devel/setup.bash 
-
 roscore 
 
 For Step4:
 
 //Open terminal 3 and 4 
-/terminal 3 - python3 message_generator.py
-/terminal 4 - python3 message_publisher.py 
+/terminal 3 
+cd ros_project/src/ros_package/src/scripts/
+python3 messageGenerator.py
+
+/terminal 4 
+cd ros_project/src/ros_package/src/scripts/
+python3 messagePublisher.py 
 
 For Step 5:
 
 //Open terminal 5 
-python3 unit_test.py 
+cd ros_project/src/ros_package/src/scripts/
+python3 unit.py 
 
 For Step 6:
 
